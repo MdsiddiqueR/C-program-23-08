@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1661269966 source:d:\programming\c program\duplicate_words\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
