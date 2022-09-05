@@ -12,6 +12,7 @@ int main()
     }
     else
     {
+        //extract character from file and store in fp
         c=getc(fp);
         while(c!=EOF)
         {
@@ -25,11 +26,13 @@ int main()
                 if ((c = fgetc(fp))  ==  '\n')
                 {
                     fseek(fp, -1, 1);
+                    //Count emptyline is encountered
                     empty_lines++;
                 }
             }
 
         }
+        //File close
         fclose(fp);
 
         printf("\n\n There are %d empty lines in a file\n", empty_lines);
