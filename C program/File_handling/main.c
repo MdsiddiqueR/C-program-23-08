@@ -6,11 +6,13 @@
         FILE *fp;
         char c;
         fp=fopen("text.txt","r");
+        //checking for file
         if(fp==NULL)
         {
             printf("\nFile cannot open or file not found...");
         }
         c=getc(fp);
+        //printing each letter in a file using loop
         while(c!=EOF)
         {
             c=fgetc(fp);
