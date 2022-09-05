@@ -8,6 +8,7 @@ int main()
 {
     int t,len;
     int location,spaceholder;
+    //The max length of a line
     const int MAXLENGTH=40;
 
     while((len=getline()) > 0)
@@ -17,6 +18,8 @@ int main()
         }
         else
         {
+            	
+	   //loop through it replacing a space nearest to the foldarea with a newline.
             t = 0;
             location = 0;
             while(t<len)
