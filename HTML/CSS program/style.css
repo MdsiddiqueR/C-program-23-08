@@ -1,0 +1,98 @@
+
+body{
+	background-image: url("seamless-wooden-planks-4k-brown-wooden-background-wooden-textures-brown-backgrounds.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 110%;
+	background-attachment: fixed;
+	
+}
+h1{
+	color: #F9EBEA;
+	text-align: center;
+	text-shadow: 2px 2px 5px red;
+}
+h2{
+
+  border-bottom: 6px solid darkolivegreen;
+  background-color: #ABEBC6;
+  color: #641E16;
+  border-radius: 8px;
+}
+p{
+	font-size: 1.3rem;
+	font-family:cursive;
+	color: #F2F4F4 ;
+}
+.bottom1{
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #FEF9E7;
+}
+footer.bottom1{
+	background-color: #333;
+	font-family: serif ;
+	text-align: center;
+	font-weight: normal;
+}
+table tr{ font-size: 2rem;
+	text-align: center;
+	border-collapse:collapse ;
+
+}
+ul{
+/*	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;*/
+
+
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background-color: #444;
+	overflow: hidden;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+}
+li{
+	float: left;
+	font-size: 1.2rem;	
+}
+li a{
+	display: inline-block;
+	text-decoration: none;
+	color: antiquewhite;
+	text-align: center;
+	padding: 15px;
+}
+li a:hover{
+	background-color: #111;
+}
+#box1 {
+  width: 645px;
+  padding: 10px;
+  border: 5px solid MistyRose;
+  margin: 0;
+  font-size: 1.2rem;
+  color: lightcyan;
+}
+.demo1{
+	border: 2px solid orange;
+	background-color: #ccccff;
+	font-weight: bold;
+}
+
+.demo1:link {color:red;}
+.demo1:visited {color:darkolivegreen;}
+.demo1:hover {font-size:120%;}
+.demo1:active {color: blue;}
+
+#opc1{opacity: 0.7;}
+#opc1:hover{opacity: 1.0;}

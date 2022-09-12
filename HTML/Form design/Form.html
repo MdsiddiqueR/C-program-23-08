@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form>
+        <fieldset style="background-color: lightyellow">
+            <legend>
+                <h3 style="color:red">Personal Details</h3>
+            </legend>
+            Name:
+            <input type="text" name="name" id="name"><br><br>
+            Password:
+            <input type="password" name="password" id="password"><br><br>
+
+            E-mail id: <input type="text" name="name" id="name"><br><br>
+            Gender: <input type="radio" name="radiogroup1" value="radio" id="radiogroup1"> Male
+            <input type="radio" name="radiogroup1" value="radio" id="radiogroup2"> Female<br><br>
+            Contact#: <input type="text" name="mobile" id="mobile">
+
+            <h3 style="color:red">Educational Qualification</h3>
+
+            Degree: <select name="degree" id="degree">
+                <option selected>-- Select Group --</option>
+                <option>B.Com</option>
+                <option>B.sc</option>
+                <option>B.com Computers</option>
+                <option>B.A</option>
+            </select><br>
+            <br>
+            Engineering: <select name="eng" id="eng">
+                <option selected>-- Select Group --</option>
+                <option>CSE</option>
+                <option>ECE</option>
+                <option>CIVIL</option>
+                <option>EEE</option>
+            </select><br><br>
+            Hobbies: <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1">Playing chess
+            <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup2">Reading Books<br><br>
+            <h3 style="color:red">Address</h3>
+            <textarea name="textarea" cols="35" rows="5" id="textarea"></textarea><br>
+            <br>
+            Attch Resume: <input type="file" name="fileField" id="fileField"><br><br>
+
+            <button type="button" onclick="alert('Saved')">Submit&#8594</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        h2 {
+            color: red;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: center;
+            border-bottom: 1px solid #DDD;
+        }
+
+        tr:hover {
+            background-color: #D6EEEE;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Employees Salary Details</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Salary</th>
+            <th>Designation</th>
+        </tr>
+        <tr>
+            <td>Williams</td>
+            <td>10000$</td>
+            <td rowspan="2">Manager</td>
+        </tr>
+
+        <tr>
+            <td>Shabbir</td>
+            <td>12000$</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>8000$</td>
+            <td rowspan="3">Senior Developer</td>
+        </tr>
+
+        <tr>
+            <td>Jack</td>
+            <td>8000$</td>
+        </tr>
+        <tr>
+            <td>Victor</td>
+            <td>10000$</td>
+        </tr>
+
+        <tr>
+            <td>Patel</td>
+            <td>6000$</td>
+            <td rowspan="5">Developer</td>
+        </tr>
+        <tr>
+            <td>Peter</td>
+            <td>6000$</td>
+        </tr>
+
+        <tr>
+            <td>Khan</td>
+            <td>6000$</td>
+        </tr>
+        <tr>
+            <td>Raj</td>
+            <td>6000$</td>
+        </tr>
+
+        <tr>
+            <td>James</td>
+            <td>6000$</td>
+        </tr>
+    </table>
+</body>
+
+</html>

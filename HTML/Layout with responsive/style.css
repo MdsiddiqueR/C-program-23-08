@@ -1,0 +1,39 @@
+.container{
+    border: 5px solid black;
+}
+.row{
+    border: 3px solid rgb(245, 7, 7);
+}
+.col{
+    border: 2px solid rgb(74, 168, 192);
+}
+body{
+    background: grey;
+}
+#container{
+    background-color: lightcyan;
+}
+#head{
+    background-color: olive;
+}
+#menu{
+    background-color: yellowgreen;
+    padding: 3px;
+}
+#menu ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+#menu ul li{
+    display: inline-block;
+}
+
+#content{
+    background-color: lightgreen;
+}
+#sidebar{
+    background-color: lightpink;
+}
+#footer{
+    background-color: olivedrab;
+}
