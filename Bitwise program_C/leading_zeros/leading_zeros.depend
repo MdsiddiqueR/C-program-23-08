@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1663865237 source:d:\programming\c program\leading_zeros\main.c
+	<stdio.h>
+	<limits.h>
+

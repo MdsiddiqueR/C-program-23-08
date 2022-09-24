@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1663843062 source:d:\programming\c program\logical_c\msb\main.c
+	<stdlib.h>
+	<stdio.h>
+

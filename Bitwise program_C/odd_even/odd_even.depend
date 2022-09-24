@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1664001036 source:d:\programming\c program\logical_c\odd_even\main.c
+	<stdio.h>
+	<stdlib.h>
+

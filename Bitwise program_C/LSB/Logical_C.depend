@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1663837309 source:d:\programming\c program\logical_c\msb.c
+	<stdio.h>
+	<stdlib.h>
+
+1663842270 source:d:\programming\c program\logical_c\lsb.c
+	<stdio.h>
+	<stdlib.h>
+

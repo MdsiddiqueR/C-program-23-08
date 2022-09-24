@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1663854854 source:d:\programming\c program\logical_c\highestsetbit\main.c
+	<stdio.h>
+	<stdlib.h>
+
